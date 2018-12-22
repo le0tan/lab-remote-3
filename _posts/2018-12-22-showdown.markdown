@@ -5,9 +5,9 @@ date:   2018-12-22 15:30:44 +0800
 categories: LabRemote3
 ---
 
-[1](/lab-remote-3/lab-remote-3/thingy/lab4/1/index.html)
+[1](/lab-remote-3/thingy/lab4/1/index.html)
 
-[2](/lab-remote-3/lab-remote-3/thingy/lab4/2/index.html)
+[2](/lab-remote-3/thingy/lab4/2/index.html)
 
 [3](/lab-remote-3/thingy/lab4/3/index.html)
 
