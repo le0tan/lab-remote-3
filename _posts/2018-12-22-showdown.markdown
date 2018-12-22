@@ -5,72 +5,72 @@ date:   2018-12-22 15:30:44 +0800
 categories: LabRemote3
 ---
 
-[1](thingy/lab4/1/index.html)
+[1](/lab-remote-3/lab-remote-3/thingy/lab4/1/index.html)
 
-[2](thingy/lab4/2/index.html)
+[2](/lab-remote-3/lab-remote-3/thingy/lab4/2/index.html)
 
-[3](thingy/lab4/3/index.html)
+[3](/lab-remote-3/thingy/lab4/3/index.html)
 
-[5](thingy/lab4/5/index.html)
+[5](/lab-remote-3/thingy/lab4/5/index.html)
 
-[6.1](thingy/lab4/6.1/index.html)
+[6.1](/lab-remote-3/thingy/lab4/6.1/index.html)
 
-[6.2](/thingy/lab4/6.2/index.html)
+[6.2](/lab-remote-3/thingy/lab4/6.2/index.html)
 
-[7](/thingy/lab4/7/index.html)
+[7](/lab-remote-3/thingy/lab4/7/index.html)
 
-[8](/thingy/lab4/8/index.html)
+[8](/lab-remote-3/thingy/lab4/8/index.html)
 
-[9](/thingy/lab4/9/index.html)
+[9](/lab-remote-3/thingy/lab4/9/index.html)
 
-[13](/thingy/lab4/13/index.html)
+[13](/lab-remote-3/thingy/lab4/13/index.html)
 
-[14](/thingy/lab4/14/index.html)
+[14](/lab-remote-3/thingy/lab4/14/index.html)
 
-[10](/thingy/lab1/10/qwj.html)
+[10](/lab-remote-3/thingy/lab1/10/qwj.html)
 
-[11](/thingy/lab1/10/11组编程.html)
+[11](/lab-remote-3/thingy/lab1/10/11组编程.html)
 
-[15](/thingy/lab1/15/guicheng.html)
+[15](/lab-remote-3/thingy/lab1/15/guicheng.html)
 
-[16](/thingy/lab1/16/fengduno2shcool.html)
+[16](/lab-remote-3/thingy/lab1/16/fengduno2shcool.html)
 
-[17](/thingy/lab1/17/practice.html)
+[17](/lab-remote-3/thingy/lab1/17/practice.html)
 
-[18](/thingy/lab1/18/lbw.html)
+[18](/lab-remote-3/thingy/lab1/18/lbw.html)
 
-[19](/thingy/lab1/19/group19.html)
+[19](/lab-remote-3/thingy/lab1/19/group19.html)
 
-[20](/thingy/lab1/20/group20.html)
+[20](/lab-remote-3/thingy/lab1/20/group20.html)
 
-[21](/thingy/lab1/21/21.html)
+[21](/lab-remote-3/thingy/lab1/21/21.html)
 
-[22](/thingy/lab1/22/zsc.html)
+[22](/lab-remote-3/thingy/lab1/22/zsc.html)
 
-[23](/thingy/lab1/23/hackthon.html)
+[23](/lab-remote-3/thingy/lab1/23/hackthon.html)
 
-[24](/thingy/lab1/24/gufeng.html)
+[24](/lab-remote-3/thingy/lab1/24/gufeng.html)
 
-[25](/thingy/lab2/25/25.html)
+[25](/lab-remote-3/thingy/lab2/25/25.html)
 
-[26](/thingy/lab2/26/26.html)
+[26](/lab-remote-3/thingy/lab2/26/26.html)
 
-[27](/thingy/lab2/27/27.html)
+[27](/lab-remote-3/thingy/lab2/27/27.html)
 
-[28](/thingy/lab2/28/28.html)
+[28](/lab-remote-3/thingy/lab2/28/28.html)
 
-[29](/thingy/lab2/29/29.html)
+[29](/lab-remote-3/thingy/lab2/29/29.html)
 
-[30](/thingy/lab2/30/30.html)
+[30](/lab-remote-3/thingy/lab2/30/30.html)
 
-[31](/thingy/lab2/31/31.html)
+[31](/lab-remote-3/thingy/lab2/31/31.html)
 
-[32](/thingy/lab2/32/32.html)
+[32](/lab-remote-3/thingy/lab2/32/32.html)
 
-[33](/thingy/lab2/33/33组.html)
+[33](/lab-remote-3/thingy/lab2/33/33组.html)
 
-[34](/thingy/lab2/34/34.html)
+[34](/lab-remote-3/thingy/lab2/34/34.html)
 
-[35](/thingy/lab2/35/35.html)
+[35](/lab-remote-3/thingy/lab2/35/35.html)
 
-[36](/thingy/lab2/36/36.html)
+[36](/lab-remote-3/thingy/lab2/36/36.html)
