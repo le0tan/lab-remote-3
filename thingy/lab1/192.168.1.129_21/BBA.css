@@ -1,0 +1,80 @@
+
+.headbox1{
+    color:rgb(236, 202, 52);
+    background-image: linear-gradient(60deg,red,rgba(255, 208, 0, 0.747));
+    border:10px solid hsl(172, 78%, 57%);
+    position:relative;
+    border-radius: 45px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    font-size: 30px;
+}
+#zxc{
+    animation: zxc 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes zxc{
+    from{transform:rotate(0deg);
+
+    }
+    to{transform:rotate(1800deg);
+
+    }
+}
+.superbigbox{
+    background-image: linear-gradient( 25deg, rgb(253, 67, 166),rgb(235, 158, 70));
+    color: rgb(7, 3, 3);
+    font-family: STHeiti;
+}
+.wuyongbox{
+    text-align: center;
+    font-size: 50px;  
+}
+.headbox2{
+    color: rgb(0, 250, 208);
+    background-image: linear-gradient(60deg,rgb(51, 212, 204),rgba(238, 88, 88, 0.836));
+    padding:10px;
+    border:10px solid rgb(255, 63, 165);
+    position:relative;
+    border-radius: 45px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    font-size: 30px;
+    display: flex; 
+}
+.headbox3{
+    color: rgb(241, 127, 20);
+    background-image: linear-gradient(60deg,rgb(236, 0, 0),rgba(2, 0, 0, 0.836));
+    padding: 10px;
+    border:10px solid rgb(255, 63, 165);
+    position:relative;
+    border-radius: 45px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    font-size: 30px;
+    display: flex;
+}
+.headbox4{
+    background-image: linear-gradient(60deg,rgb(92, 247, 113),rgba(234, 255, 142, 0.836));
+    padding: 10px;
+    border:10px solid rgb(255, 63, 165);
+    position:relative;
+    border-radius: 45px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    font-size: 30px;
+}
+.juzhongbox{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.theendbox{
+    text-align: center;
+    font-size: 60px;
+    flex-direction: column;
+}

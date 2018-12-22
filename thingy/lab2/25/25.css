@@ -1,0 +1,49 @@
+.green{
+    color: rgb(57, 233, 13);
+}
+#blue{
+    color:rgb(21, 148, 180);
+}
+#yellow{
+    color:rgb(13, 196, 58);
+}
+#aqua{
+    color: aqua;
+}
+#quamarine{
+   color: rgb(19, 6, 192);
+}
+.背景{
+    background-image: linear-gradient(rgb(142, 12, 218),blue);
+    text-align:center;
+    padding:20px;
+}  
+.背景1{
+    background-image: linear-gradient(orange,pink);
+    text-align:center;
+    padding:20px;
+}  
+.背景2{
+    background-image: linear-gradient(brown,green);
+    text-align:center;
+    padding:20px;
+}  
+.背景3{
+    background-image: linear-gradient(rgb(17, 84, 209),rgb(10, 204, 68));
+    text-align:center;
+    padding:20px;
+}  
+
+.边框{
+    border: 10px solid green;
+animation: 动漫 2s;
+animation-iteration-count: infinite;
+}
+@keyframes 动漫{
+    from{
+        border: 10px solid green;    
+    }
+    to{
+        border: 10px solid blue;
+    }
+}

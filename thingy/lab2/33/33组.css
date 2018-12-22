@@ -1,0 +1,98 @@
+.aa{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+}
+.bb{
+    text-align: center;
+}
+.cc{
+    text-align: center;
+    font-size: 30px;
+}
+.dd{
+    text-align: end;
+}
+.hh{
+    width: 100%;
+    height: 300px ;
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+.ff{
+    width: 450px;
+    height: 150px;
+    background-color:rgb(54, 215, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: 平移 5s;
+    animation-fill-mode: forwards;
+
+    /*animation-iteration-count: infinite;*/
+    
+}
+.gg{
+    width: 450px;
+    height: 150px;
+    background-color:rgb(54, 215, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: 平移2 5s;
+    animation-fill-mode: forwards;
+    /*animation-iteration-count: infinite;*/
+    
+}
+@keyframes 平移{
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{transform: translateX(300px);transform: skewX(89deg);
+        visibility: hidden;
+
+    }
+}
+@keyframes 平移2{
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{transform: translateX(-300px);transform: skewX(-89deg);
+        visibility: hidden;
+
+    }
+}
+.jj{
+    width: 1575px;
+    height: 300px;
+    background-color: #ffffcc;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.kk{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+background-image: linear-gradient(45deg,red,blue);
+animation: 旋转 5s;
+animation-iteration-count: infinite;
+}
+@keyframes 旋转{
+    0%{
+
+    }
+    50%{transform: rotate(360deg);
+
+    }
+    100%{
+
+    }
+}

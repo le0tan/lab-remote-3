@@ -1,0 +1,164 @@
+
+.标题 {
+    width: 500px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 186, 243);
+    display: flex;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 550px;
+    margin-inline-end: 0px;
+    color: rgb(184, 16, 16);
+    font-size: 100;
+    font-family: "宋体";
+    animation: 动画 3s;
+    animation-iteration-count: infinite;
+   
+    
+ 
+
+}
+@keyframes 动画{
+    0%{
+        background-color: rgb(70, 188, 243);
+      
+        border-radius:0px;
+    }
+    
+  
+    50%{
+        background-color: rgb(255, 255, 255);
+        border-radius: 100px;
+
+    }
+  
+    
+    100%{
+        background-color: rgb(70, 188, 243);
+      
+        border-radius:0px;
+    }
+    
+}
+
+
+
+    
+.q {
+    font-size: 25;
+    font-family: "黑体"； 
+}
+.w {
+    font-size: 18;
+    color: blue;
+}
+
+.e {
+    font-size: 25;
+
+}
+.r {
+    font-size: 20;
+
+
+}
+
+#bj {
+    background-image: url(1.jpg);
+    width: 1150;
+}
+#bj2 {
+    background-image: url(2.jpg);
+    width: 1150;
+}
+#bj3 {
+    background-image: url(3.jpg);
+    color: red;
+    width: 1150;
+    font-size: 25;
+   
+    
+}
+.矩形 {
+    background-color: rgb(152, 255, 143);
+    color: black;
+    border: 3px rgb(157, 157, 206) solid;
+    height: 480px;
+    width: 1150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    animation: 矩形动画 5s;
+    animation-iteration-count: infinite;
+    font-family:"宋体"；
+    
+}
+
+@keyframes 矩形动画 {
+    0% {
+        border-radius: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    50% {
+        border-radius: 150px;
+        background-color: rgb(212, 255, 195);
+    }
+    100% {
+        border-radius: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+.导航{
+    list-style-type: none;
+    background-color: rgb(129, 251, 255);
+    /* width: 100%; */
+    padding: 5;
+    margin: 200px;
+    overflow: hidden;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    float: left;
+    font-size: 20px;
+}
+
+li a:hover {
+  
+    animation: rtq 0.5s;
+    animation-iteration-count: infinite;
+    
+}
+
+li a:active{
+    background-color: rgb(255, 255, 255);
+    animation: donghua2 0.1s;
+
+}
+
+@keyframes rtq {
+    0% {
+        background-color: rgb(0, 89, 255);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes donghua2 {
+    0% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.849);
+    }
+}
+.内容{
+    margin: 200px;
+}

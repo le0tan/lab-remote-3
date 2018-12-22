@@ -1,0 +1,168 @@
+#h1-u8096u7AD9{
+    color: darkred;
+    animation: donghua 0.5s;
+    animation-iteration-count: infinite;
+    font-size: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes donghua{
+    0%{color:yellow;}
+    50%{color:purple;}
+    100%{color:yellow;}
+}
+#h2-u57FAu672Cu4FE1u606F{
+    color: rgb(0, 225, 255);
+    animation: h 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes h{
+    0%{color:hotpink;}
+    50%{color:honeydew;}
+    100%{color:hotpink;}
+}
+#h2-u65E9u5E74u7ECFu5386{
+    animation: hh 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hh{
+    0%{color:hotpink;}
+    50%{color:honeydew;}
+    100%{color:hotpink;}
+}
+#h2-u6F14u827Au7ECFu5386{
+    animation: hhh 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hhh{
+    0%{color:hotpink;}
+    50%{color:honeydew;}
+    100%{color:hotpink;}
+}
+p{  display: flex;
+    color:rgba(20, 94, 112, 0.699);
+    align-items: center;
+    justify-content: center;
+    animation: q 4s;
+    animation-iteration-count: 1;
+}
+@keyframes q{
+    0%{transform: translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+    50%{transform: translate(10px,10px) rotate(45deg) scale(2) skew(15deg,15deg);}
+    100%{transform:  translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+}
+
+#h2-u4E3Bu8981u4F5Cu54C1{
+    animation: hhhh 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hhhh{
+    0%{color:hotpink;}
+    50%{color:honeydew;}
+    100%{color:hotpink;}
+}
+#h3-u53C2u6F14u7535u89C6u5267{
+    animation: hhhhh 0.5s;
+    animation-iteration-count: infinite;
+    display: block;
+}
+@keyframes hhhhh{
+    0%{color:hotpink ;}
+    50%{color:honeydew  ;}
+    100%{color:hotpink  ;}
+}
+#h2-u4EBAu7269u8BC4u4EF7{
+    animation: hhhhhh 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes hhhhhh{
+    0%{color:hotpink ;}
+    50%{color:honeydew  ;}
+    100%{color:hotpink  ;}
+}
+#h1-u6700u540E{
+    animation: hhhhhhh 0.5s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    
+}
+@keyframes hhhhhhh{
+    0%{color:hotpink ;}
+    50%{color:honeydew  ;}
+    100%{color:hotpink  ;}
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(173, 106, 153);
+    
+   
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color:pink;
+    text-decoration: none;
+   
+}
+li a:hover {
+    background-color: rgb(161, 47, 255);
+    animation: donghua 0.11s;
+}
+li a:active{animation: donghua 0.5s;   
+    background-color: rgb(49, 0, 128);}
+#xx img:hover {animation: x 4s;
+          animation-iteration-count: 2;
+          display: block;
+}
+@keyframes x{
+    0%{transform: translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+    50%{transform: translate(10px,10px) rotate(180deg) scale(2) skew(15deg,15deg);}
+    100%{transform:  translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+}
+#xxx img:active{
+    animation: xx 2s;
+          animation-iteration-count: 2;
+          display: block;
+}
+@keyframes xx{
+    0%{transform: translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+    50%{transform: translate(10px,10px) rotate(90deg) scale(2) skew(15deg,15deg);}
+    100%{transform:  translate(0,0) rotate(0deg) scale(1) skew(0,0);}
+}
+body{
+    padding: 80px;
+}
+.w {
+    background-color: rgb(20, 167, 172);
+    color: rgb(0, 255, 42);
+    border: 5px rgb(225, 0, 255) solid;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    animation: w 5s;
+    animation-iteration-count: infinite;
+    font-size: 100px;
+}
+@keyframes w {
+    0% {color: chartreuse;
+        border-radius: 0px;
+    }
+    50% {color: firebrick;
+        border-radius: 200px;
+    }
+    100% {color: chartreuse;
+        border-radius: 0px;
+    }
+}

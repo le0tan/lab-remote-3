@@ -1,0 +1,78 @@
+.nong{
+    color: brown;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: 150px double rgb(206, 22, 22);
+}
+.wang{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: red;
+    
+}
+.a{
+    text-align: center;
+}
+.b{
+    animation: 变形 5s;
+}
+@keyframes 变形{
+    0%{
+
+    }
+    50%{
+        transform: rotate(45deg)
+    }
+    100%{
+
+    }
+}
+.c{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.f{
+    color: black;
+    background-color: rgb(238, 16, 16);
+}
+
+.p{
+    animation: 变形 5s;
+}
+@keyframes 变形{
+    0%{
+
+    }
+    50%{
+        transform: rotate(45deg)
+    }
+    100%{
+
+    }
+}
+.t{
+    animation: 变形 5s;
+}
+@keyframes 变形{
+    0%{
+
+    }
+    50%{
+        transform: rotate(45deg)
+    }
+    100%{
+
+    }
+
+}

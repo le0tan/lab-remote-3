@@ -1,0 +1,75 @@
+.one{
+    background-image: linear-gradient(180deg,rgb(250, 250, 250),rgb(243, 242, 168));
+}
+.tow{
+    font-family: simsun;
+    font-size: 50px;
+}
+.three{
+    width: 1325px;
+    height: 150px;
+    background-image: linear-gradient(180deg,rgb(228, 192, 231),rgb(91, 219, 97));
+    border: 3px solid rgba(21, 245, 14, 0.842)
+}
+.four{
+    width: 1325px;
+    height: 150px;
+    background-image:linear-gradient(180deg,rgb(72, 223, 190),rgb(146, 153, 250) );
+    border: 3px solid darkcyan;
+}
+
+.five{
+    width: 1325px;
+    height: 225px;
+    background-image: linear-gradient(180deg,rgb(231, 120, 216),rgb(241, 76, 76));
+    border: 3px solid rgb(231, 69, 83);
+}
+.six{
+    width: 1325px;
+    height: 50px;
+    background-image: linear-gradient(180deg,rgb(231, 214, 146),rgb(159, 242, 245));
+    border: 3px solid rgb(172, 230, 238);
+}
+.seven{
+    width: 1325px;
+    height: 75px;
+    background-image: linear-gradient(180deg,rgb(161, 156, 228),rgb(165, 98, 219));
+    border: 3px solid rgb(119, 243, 212);
+}
+.eight{
+    width: 1325px;
+    height: 225px;
+    background-image: linear-gradient(180deg,rgb(248, 204, 164),rgb(181, 246, 107));
+    border: 3px solid rgb(134, 88, 185);
+}
+.nine{
+    width: 1325px;
+    height: 70px;
+    background-image: linear-gradient(180deg,rgb(223, 243, 151),rgb(243, 122, 192));
+    border: 3px solid rgb(78, 173, 236);
+}
+.ten{
+    margin-left: 390px;
+}
+.tow-one{
+    margin-left:  525px;
+}
+.eleven{
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(50% 50%,rgb(143, 235, 204),rgb(125, 211, 252));
+    color: black;
+    transform: rotate(0deg);
+    border-radius: 40px;
+    font-family: simsun;
+    font-size: 35px;
+    animation: eleven 3s linear infinite;
+}
+@keyframes eleven{
+    form{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

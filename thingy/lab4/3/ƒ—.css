@@ -1,0 +1,59 @@
+.齐天{color: rgb(0, 255, 128);
+    text-align: center;
+    font-size: 25px;
+}
+.不{color: aqua;
+    font-size: 30px;
+    font-style: "粗体";
+}
+#会{
+    color: rgb(0, 174, 255);
+    font-style: "宋体";
+    font-size: 20px;
+}
+.的{width: 400px;
+    height:200px;
+    background-color: white;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;flex-wrap: wrap;
+    animation: 哦 3s;animation-iteration-count:infinite;
+    font-size: 20px;font-style: "粗体";
+}
+ul {padding: 10px;
+    display: flex;
+    background-color: rgb(208, 216, 216);
+    list-style-type: none;
+    height: 40px;
+    color: rgb(131, 252, 95);
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+    animation: 所谓 2s;animation-iteration-count:infinite;
+}
+li a {
+    float: left;  
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: center;
+}
+li a:hover{background-color: chartreuse;
+    color: hotpink;     
+}
+li a:active {background-color: rgb(228, 31, 17);
+    color: blue;
+}@keyframes 哦{0%{background-color:  rgb(66, 233, 245);
+
+}50%{background-color: chartreuse;
+}
+100%{background-color: rgb(66, 233, 245);
+}
+}@keyframes 所谓{0%{background-color:  rgb(66, 245, 105);transform: skewX(-15deg)
+}50%{background-color: rgb(85, 240, 240)
+}
+100%{background-color: rgb(66, 245, 105);transform: skewX(-15deg)
+}}

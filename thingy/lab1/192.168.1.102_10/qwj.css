@@ -1,0 +1,84 @@
+.qqq-box{
+    background-color:rgb(163, 127, 187);
+}
+.move-box{
+    color:black;
+    background-color: coral;
+    margin-left: 10px;
+    position: relative;
+    font-size: 30px;
+}
+#move__small__box{
+    animation: move-box-animation 5s infinite;
+}
+@keyframes move-box-animation{
+    from{
+        left:200px;
+        color: blueviolet;
+    }
+    to{
+        left:0px;
+        color: brown;
+    }
+}
+.qwj-box{
+    color:yellow;
+    font-family: SimSun;
+    font-size: 25px;
+}
+.ldl-box{
+    color: black;
+    background-image: linear-gradient(270deg,pink,red);
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    font-family: SimSun;
+    font-size: 25px;
+}
+.dcm-box{
+    color:yellow;
+    background-image: linear-gradient(0deg,rgb(136, 77, 77),pink);
+    border: 3px solid rgb(125, 125, 240) ;
+    width: 1200px;
+    height: 800px;
+    margin: 15px;
+    padding: 10px;
+    font-family: SimSun;
+    font-size: 25px;
+}
+.change-box{
+    color:blue;
+    background-image:radial-gradient(50% 50%,rgb(243, 231, 233),rgb(252, 93, 119));
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+    border-radius: 250px;
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.www-box{
+    color:black;
+    background-color: coral;
+    margin-left: 10px;
+    position: relative;
+    font-size: 100px;
+    justify-content: center;
+}
+#www-move-box{
+    animation: ere 8s infinite;
+}
+@keyframes   ere{
+    from{
+        transform:rotate(0deg);
+     
+    }
+    
+    to{
+        transform: rotate(720deg);
+        
+       
+    }
+ }

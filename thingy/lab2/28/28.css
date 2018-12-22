@@ -1,0 +1,25 @@
+.海王{
+    color:rgb(45, 161, 238);
+    text-align: center
+
+
+
+}
+.Xz{
+   text-align: center;
+}
+.QWER{
+    animation: donghua 7s;
+
+}
+@keyframes donghua{
+    0%{
+
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        
+    }
+     

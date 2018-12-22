@@ -1,0 +1,115 @@
+.bt{
+    font-size: 60px;
+    background-color: aqua;
+
+
+}
+
+.jbxx{font-size: 60px;
+     background-color: coral;
+     color: deeppink;
+     width: 300px;
+     height: 278;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 22;
+     outline: 20;
+     margin: 30;
+     transform: scale(2);
+     
+
+}
+.黄色盒子{
+    display: flex;
+text-align: center;
+text-justify: kashida;
+    color: blanchedalmond;
+    background-color: palevioletred;
+    width:500px;
+    height:500px；
+}
+ul{
+    list-style-type: none;
+    margin: 50px;
+    padding: 20px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+li a:active{
+    background-color: mediumseagreen;
+}
+
+
+
+.矩形 {
+    background-color: orange;
+    color: blue;
+    height: 300px;
+    width: 700px;
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-image: initial;
+    margin:200px;
+    animation: 矩形动画 5s ease 0s infinite normal none running;
+    font-size: 30px;
+}
+div {
+    display: block;
+}
+@keyframes 矩形动画{
+0% {background-color: orange;
+    color: blue;
+    height: 300px;
+    width: 300px;
+}
+50% {background-color: rgb(69, 188, 209);
+    color: rgb(243, 208, 9);
+    height: 300px;
+    width: 1050px;
+    border-radius: 150px;
+}
+100% {background-color: orange;
+    color: blue;
+    height: 300px;
+    width: 300px;
+    border-radius: 0px;
+}
+}
+
+.bianxing{
+        background-color: rgb(236, 85, 216);
+        color: rgb(233, 8, 253);
+        height: 700px;
+        width: 700px;
+        margin: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-width: 5px;
+        border-style: double;
+        outline: 300px;
+        padding: 5px;
+        border-color: blue;
+        border-image: initial;
+        margin: 300px;
+        animation: 矩形动画 30s ease 0s infinite normal none running;
+        font-size: 16px;
+}

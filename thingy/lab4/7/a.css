@@ -1,0 +1,73 @@
+.a{
+    font-family: "宋体";
+    font-style: italic;
+    font-size:70px;
+    color:rgba(8, 0, 0, 0.603);
+    align-items: center;
+    justify-content: center;
+    animation: 动画 5s;
+    animation-iteration-count: infinite;
+    margin: 40;
+   }
+   @keyframes 动画 {
+    0%{
+        text-align: center; background-color:red ;display: flex; width:1000px; height: 200px; border-radius: 0px
+     }
+     25%{text-align: center;background-color: yellow;display: flex;width: 800px; height: 100px;border-radius: 800px
+     }
+     
+    50%{
+      text-align: center;  background-color: green;display: flex;width: 1000px; height: 200px;border-radius: 0px
+    }
+    75%{
+      text-align: center;    background-color:blue ;display: flex;width: 800px; height: 100px;border-radius: 8000px}
+    100%{
+      text-align: center;   background-color: purple ;display: flex;width: 1000px; height: 200px;border-radius: 0px}
+    }
+  .a:hover{ 
+    background-color: pink;
+    backface-visibility: inherit;
+
+  }
+  .b{
+    font-family: "黑体";
+    font-style: italic;
+    font-size: 40px;
+    color: rgb(47, 1, 250);
+    text-align: center;
+  }
+  .c{
+    font-family: "宋体";
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+  }
+  .d{
+      font-family: "黑体";
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+.e{text-decoration: unset;
+  list-style-type: none;
+  display: black;
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(0, 238, 255);
+  width: 160px;
+  display: block;
+  text-align: center;                              
+  overflow: hidden;
+  text-decoration: none;
+  border: 70px;
+  border: gold
+}
+ 
+
+.e:hover{
+  background-color: rgb(188, 218, 23);
+  color: rgb(209, 8, 8)
+  }

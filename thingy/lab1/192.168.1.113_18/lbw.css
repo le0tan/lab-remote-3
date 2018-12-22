@@ -1,0 +1,135 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.yellow-box {
+    color: red;
+    background-color: yellow;
+    border:5px solid black;
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 100px;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.move-box1{
+    justify-content: center;
+    margin-left: 300px;
+    align-items: center;
+    color:greenyellow;
+    background-image: linear-gradient(270deg, red, pink);
+    border: 3px solid black;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    font-family: SimSun;
+    font-size: 20px;  
+}
+.move-box2{
+    justify-content: center;
+    margin-left: 300px;
+    align-items: center;
+    color:greenyellow;
+    background-image: linear-gradient(270deg,purple, pink);
+    border: 3px solid black;
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+    font-family: SimSun;
+    font-size: 20px;  
+    flex-wrap: wrap;}
+
+    .move-box3{
+        justify-content: center;
+        margin-left: 300px;
+        align-items: center;
+        color:royalblue;
+        background-image: linear-gradient(270deg,green, pink);
+        border: 3px solid black;
+        width: 800px;
+        height: 500px;
+        padding: 10px;
+        font-family: SimSun;
+        font-size: 20px;  
+        flex-wrap: nowrap;
+}
+.move-box4{
+    justify-content: center;
+    margin-left: 300px;
+    align-items: center;
+    color:red;
+    background-image: linear-gradient(270deg,rgb(77, 0, 128), pink);
+    border: 3px solid black;
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+    font-family: SimSun;
+    font-size: 20px;  
+    flex-wrap: wrap;}
+
+    .move-box5{
+        justify-content: center;
+        margin-left: 300px;
+        align-items: center;
+        color:red;
+        background-image: linear-gradient(270deg,rgb(128, 0, 49),pink);
+        border: 3px solid black;
+        width: 700px;
+        height: 550px;
+        padding: 10px;
+        font-family: SimSun;
+        font-size: 20px;  
+        flex-wrap: wrap;}
+.move-box {
+    color: wheat;
+    width: 150px;
+    height: 150px;
+    margin-left: 300px;
+    position: relative;
+}
+
+#move__small__box {
+    animation: move__box__animation 3s;
+}
+
+@keyframes move__box__animation {
+    from {
+        left: 2000px;
+        
+    }
+    to {
+        left: 400px;
+       
+    }
+}
+
+.change-box {
+    color:greenyellow;
+    background-color: green;
+    width: 0px;
+    height: 0px;
+    margin-left: 100px;
+    border-radius: 0px;
+    transform: skewYs(50deg);
+    transform: translate(30px, 20px);
+    transform: rotate(3600deg);
+    transform: scale(0.1, 0.2);
+}
+
+.llll{
+   /*display: flex;
+    align-items: center ;*/
+}
+
+.ooo{
+    color:red;
+    text-align: center;
+}

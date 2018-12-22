@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(161, 238, 231);
+}
+.start{
+    color:pink;
+    background-color:white;
+     width:250px;
+     height:50px;
+}
+.xiaobiaoti{
+    color:rgb(128, 128, 128);
+    border: 20px dotted yellow;
+    background-color: antiquewhite;
+    margin: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 25px;
+    display: flex;
+    justify-content:center;
+    align-content: flex-end;
+    flex-direction: column;
+   text-align: center;
+}
+#big{
+    color: black;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    border:5px dotted pink;
+    font-family: simsun;
+    font-size:10px;
+}
+.end{
+    color: gray;
+    background-color: antiquewhite;
+}
+.happy{
+    color: blue;
+    background-color: pink;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    transform: rotate(0deg);
+    animation: lala 3s linear infinite;
+    position: absolute;
+    right: 0px;
+}
+@keyframes lala{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.lala{
+    background-color: antiquewhite;
+}
+.beijing{
+    color: black;
+    background-color:skyblue;
+
+    display: flex;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

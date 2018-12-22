@@ -1,0 +1,43 @@
+.lol{
+   color:rosybrown;
+    width: 400px;
+    font-size: 30%;
+}
+.介绍图片{ 
+  width:500px;
+  height: 420px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.标题{
+   font-size: 60px;
+   font-style: italic;
+   color:royalblue;
+   text-align: center;
+}
+.英雄{
+    width: 500px;
+ height: 400;
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+}
+.其{
+     display:flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+}
+.一{
+   color: whitesmoke;
+}
+.二{
+   color:grey;
+   font-style: italic;
+}
+.三{
+   color:gray;
+   font-style: italic;
+}
+    
+
+

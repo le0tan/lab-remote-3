@@ -1,0 +1,31 @@
+.红色字体{
+    
+    font-size: 20px;
+    animation: 旋转 3S;
+}
+@keyframes 旋转{
+    0%{}
+    100%{transform: rotate(360deg)}
+}
+#bg{
+    display: flex;
+    
+}
+
+.qw{
+    font-size: 50px;
+    color: rgb(11, 139, 86);
+}
+.x{
+    font-size: 20px;
+    animation: blanse 3s;
+}
+@keyframes blanse {
+    0%{
+        color: rgb(139, 88, 11);
+
+    }
+    100%{
+        color: rgb(84, 221, 137); 
+    }
+}

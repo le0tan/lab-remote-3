@@ -1,0 +1,62 @@
+
+
+.container0{
+    background-color: rgb(224, 211, 21);
+}
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.container2{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.旋转{
+    justify-content: center;
+    animation: 变形 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes 变形{
+    0%{
+
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.beijing{
+    background-image: url("http://p4.so.qhmsg.com/bdr/_240_/t015bcb7374221c3699.jpg")
+}
+.BJ{
+    background-image: url("http://cmsimg.sports.cn/Image/141111/53-1411110RR45Y.jpg")
+}
+.BJ2{
+    color: rgb(219, 30, 30);
+    background-image: url("http://p2.so.qhimgs1.com/bdr/_240_/t01f33f161afc810622.jpg")
+}
+.BJ3{
+    color: antiquewhite;
+    background-image: url("http://p0.so.qhimgs1.com/bdr/_240_/t01f26b281fef90434a.jpg")
+}
+.BJ5{
+background-color: rgba(32, 107, 204, 0.801);
+}
+.AA{
+    display:flex;
+   justify-content: center;
+}

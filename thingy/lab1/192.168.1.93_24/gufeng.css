@@ -1,0 +1,53 @@
+.text-center{
+    text-align:center;
+}
+.image-explained{
+    font-size: 20px;
+    margin-left:0px;
+    display:flex;
+}
+.image-align{
+    margin-top:-20px;
+    margin-left:5px;
+}
+.text-color{
+    text-align:center; 
+    color: aquamarine;
+}
+.container{
+    background-color:rgb(92, 175, 157);
+}
+.move-image{
+    margin-left: 500px;
+}
+#move_image_animation{
+    animation:move_image_animation 5s;
+}
+@keyframes move_image_animation{
+    0%{
+
+    }
+    50%{
+        transform: scale(-1.5,-1.5);
+    }
+    100%{
+
+    }
+}
+.text-highlight{
+    color: rgb(206, 26, 26);
+} 
+#text-gradient{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: text-gradient-animation 5s;
+}   
+@keyframes text-gradient-animation{
+    0%{color:#d02090}
+    40%{color:blueviolet}
+    60%{color:#ff3030}
+    100%{color:black}
+}

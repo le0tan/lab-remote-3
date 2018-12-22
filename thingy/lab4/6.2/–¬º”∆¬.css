@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    background-color: rgb(107, 204, 42);
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    height:50px;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    align-items:center;
+
+    
+    
+
+    
+
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    float: left;
+
+    
+
+    
+}
+
+li a:hover {
+    background-color: rgb(29, 109, 230);
+
+    
+}
+
+li a:active {
+    background-color: rgb(211, 18, 18);
+    
+
+}
+
+@keyframes 新加坡在哪里？ {
+    0% {
+        background-color: rgb(80, 16, 66);
+    }
+    100% {
+        background-color: rgb(180, 169, 15);
+    }
+}
+
+@keyframes 新加坡美誉 {
+    0% {
+        background-color: greenyellow;
+    }
+    50% {
+        background-color: brown；
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes 新加坡美食与文化 {
+    0% {
+        background-color: rgb(80, 16, 66);
+    }
+    100% {
+        background-color: rgb(180, 169, 15);
+    }
+}
+ p{
+     display:flex;
+     align-items:center;
+     
+}
+#新加坡在哪里{
+    color:rgb(55, 28, 209);
+}
+#新加坡美誉{
+    color:rgb(13, 149, 202)
+}
+#新加坡美食与文化{
+    color:pink;
+}
